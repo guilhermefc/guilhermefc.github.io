@@ -5,7 +5,7 @@ description: Software engineering sharing some learnings and adventures.
 image: /images/citysky.jpg
 ---
 
-{% include about.html %} 
+{% include about.html %}
 
 
 <div id="blog-posts" class="section no-pad">
@@ -13,10 +13,10 @@ image: /images/citysky.jpg
   {% for post in site.posts %}
   <a href="{{ post.url }}">
     <div class="parallax-window blog-box" data-parallax="scroll" data-image-src="images/{{ post.image }}">
-      
-      <h2 class="container center"
-        style="color: white; font-weight: bold; height: inherit; padding-top: 200px; padding-bottom: 200px; padding-left: 16px; padding-right: 16px;">
-        {{ post.title }}</h2>
+
+      <h4 class="container center"
+        style="color: white; font-weight: bold; height: inherit; padding-top: 200px; padding-bottom: 200px; ">
+        {{ post.title }}</h4>
     </div>
   </a>
   {% endfor %}
@@ -24,4 +24,4 @@ image: /images/citysky.jpg
 </div>
 
 
-{% include jobs.html %} 
+{% include jobs.html %}
