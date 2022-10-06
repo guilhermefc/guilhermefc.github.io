@@ -14,6 +14,17 @@
   <link href="/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <link href="/css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  {% if page.layout != 'index' %}
+  {% assign posts=site.posts | where:"lang-ref", page.lang-ref | sort: 'lang' %}
+  {% if posts.size == 0 %}
+  {% assign posts=site.pages | where:"lang-ref", page.lang-ref | sort: 'lang' %}
+  {% endif %}
+  {% if posts.size > 1 %}
+  {% for post in posts %}
+  <link rel="alternate" hreflang="{{post.lang}}" href="{{ site.base-url }}{{ post.url }}" />
+  {% endfor %}
+  {% endif %}
+  {% endif %}
 
   {% seo %}
 </head>
@@ -31,8 +42,8 @@
             title="Twitter"></i></a>
         <a href="https://www.linkedin.com/in/guilherme-carneiro/" target="_blank"><i class="fa  fa-linkedin  fa-2x"
             style="color:#fff;" title="LinkedIn"></i></a>
-        <a href="https://www.instagram.com/guicarneirocom" target="_blank"><i class="fa fa-instagram fa-2x" style="color:#fff;"
-            title="Instagram"></i></a>
+        <a href="https://www.instagram.com/guicarneirocom" target="_blank"><i class="fa fa-instagram fa-2x"
+            style="color:#fff;" title="Instagram"></i></a>
         <a href="https://github.com/guilhermefc" target="_blank"><i class="fa fa-github fa-2x" style="color:#fff;"
             title="Instagram"></i></a>
       </span>

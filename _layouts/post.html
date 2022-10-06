@@ -7,8 +7,27 @@ layout: default
   <div class="post-header" style="background-image:url(/images/{{page.image}});"> </div>
   <div class="container">
     <br><br>
-    <h3 class="header center">{{ page.title }}</h1>
-      <p class="center grey-text.text-darken-1">{{ page.date | date_to_string }}</p>
-      <div style='text-align: justify; font-size: 22px;'> {{ content }} </div>
+    <h3 class=""><a href="/" title="back" style="color: #000">←</a></h3>
+    <h3 class="header center">{{ page.title }}</h3>
+    <p class="center grey-text.text-darken-1">{{ page.date | date_to_string }}</p>
+    {% if page.layout != 'index' %}
+    {% assign posts=site.posts | where:"lang-ref", page.lang-ref | sort: 'lang' %}
+    {% if posts.size == 0 %}
+    {% assign posts=site.pages | where:"lang-ref", page.lang-ref | sort: 'lang' %}
+    {% endif %}
+    {% if posts.size > 1 %}
+    <footer class="lang-options">
+      <ul>
+        {% for post in posts %}
+        <li><a href="{{ site.base-url }}{{ post.url }}" class="{{ post.lang }}" title="View in {{post.lang}}">
+            {{ site.data.languages[post.lang].icon }} {{ site.data.languages[post.lang].label }}
+          </a></li>
+        {% endfor %}
+      </ul>
+    </footer>
+    {% endif %}
+    {% endif %}
+
+    <div style='text-align: justify; font-size: 22px;'> {{ content }} </div>
   </div>
 </div>

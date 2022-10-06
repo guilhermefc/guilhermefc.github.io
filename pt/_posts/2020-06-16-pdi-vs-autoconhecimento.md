@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Plano de desenvolvimento vs. Autoconhecimento
+lang: pt
 image: blog_01_idp_header.jpg
 image_idp: idp_2020_06.png
 ---
