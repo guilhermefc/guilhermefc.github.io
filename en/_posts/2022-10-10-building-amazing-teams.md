@@ -48,7 +48,7 @@ The show time was about to start. The product manager brought up a business prob
 
 But not everything was bad, at this time we had our metrics in place, so after refining the problem we applied a statistical model called “Monte Carlo” to map our delivery forecast and give an estimation to the business stakeholders. This map made clear to everyone that with such scope and team size would not be possible to deliver what was required. So we made a task force to replan the scope, breaking small deliveries of the most important things first, we also rethink tech on how to use frameworks and how to adapt services already made to that necessity, and after all those rearrangements, we started to code and build things.
 
-The result came as expected, an engaged team, with a clear scope, clear mission, right tooling, and autonomy was more than capable of taking this challenge and delivering it smoothly, task by task tested by a group of insider users, and the rest of the scope that was deprioritized at the begin came back to the backlog and was also delivered along the next weeks.
+The result came as expected, an engaged team, with a clear scope, clear mission, right tooling, and autonomy was more than capable of taking this challenge and delivering it smoothly, task by task tested by a group of insider users and then gradually roll outed to thousands of users. The rest of the scope that was deprioritized at the beginning came back to the backlog and was also delivered over the next weeks.
 
 <br />
 ##### **THE END** #####
