@@ -4,6 +4,7 @@ title: Individual Development Plan vs. Self Knowledge
 lang: en
 image: blog_01_idp_header.jpg
 image_idp: idp_2020_06.png
+lang-ref: idp
 ---
 
 ##### **TL;DR** #####
