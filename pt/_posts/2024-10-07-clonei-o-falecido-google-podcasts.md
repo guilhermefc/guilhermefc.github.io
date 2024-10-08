@@ -28,7 +28,7 @@ Um desafio no meio dessa jornada era de onde puxar a base de podcasts, vou tenta
 Por isso, não posso deixar de agradecer ao time por trás do Podcast Index. Esse projeto independente é dedicado a proteger e preservar o ecossistema de podcasts, garantindo que criadores de conteúdo tenham um espaço livre e acessível para compartilhar suas vozes. Graças a eles, consegui acessar uma base de dados robusta, com milhões de podcasts, o que foi essencial para o lançamento do app. Sem eles, criar um indexador de podcasts do zero com o tempo que eu tinha disponível, teria sido praticamente impossível, e o app certamente não teria alcançado a mesma qualidade e abrangência.
 
 <br />
-Foi assim que consegui transformar a frustração de perder um serviço amado em uma oportunidade. O Minimal Podcast não é apenas um clone do Google Podcasts; é uma resposta ao inconformismo de ver produtos legais desaparecerem.
+Foi assim que consegui transformar a frustração de perder um serviço amado em uma oportunidade. O <a href="https://minimalpodcast.app">Minimal Podcast</a> não é apenas um clone do Google Podcasts; é uma resposta ao inconformismo de ver produtos legais desaparecerem.
 
 <br />
 Claro que comparar um app desenvolvido em um mês por uma só pessoa contra um app que teve bilhões de usuários e foi mantido por uma das maiores empresas de tecnologia do planeta seria uma tremenda arrogância de minha parte, por isso deixo claro que o mesmo teve apenas sua aparência usada como inspiração e ainda faltam muitas melhorias no motor de recomendações, e outras funcionalidades… mas aos poucos vamos chegando lá.

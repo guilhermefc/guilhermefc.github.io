@@ -55,8 +55,9 @@ nearly impossible, and the app certainly wouldn't have reached the same quality
 and scope.
 
 <br /> This is how I managed to turn the frustration of losing a beloved service
-into an opportunity. Minimal Podcast isn't just a clone of Google Podcasts; it's
-a response to the dissatisfaction of seeing cool products disappear.
+into an opportunity. <a href="https://minimalpodcast.app">Minimal Podcast</a>
+isn't just a clone of Google Podcasts; it's a response to the dissatisfaction of
+seeing cool products disappear.
 
 <br /> Of course, comparing an app developed in a month by a single person to an
 app that had billions of users and was maintained by one of the largest tech
